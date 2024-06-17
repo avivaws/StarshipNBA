@@ -1,0 +1,66 @@
+2024-03-10T18:32:22.500+02:00  INFO 26312 --- [main] c.s.s.UIMicroserviceApplication          : Starting UIMicroserviceApplication using Java 19.0.2 with PID 26312 (C:\Users\aviv\IdeaProjects\StarshipNBA\UIMicroservice\target\classes started by aviv in C:\Users\aviv\IdeaProjects\StarshipNBA)
+2024-03-10T18:32:22.507+02:00 DEBUG 26312 --- [main] c.s.s.UIMicroserviceApplication          : Running with Spring Boot v3.2.0, Spring v6.1.1
+2024-03-10T18:32:22.509+02:00  INFO 26312 --- [main] c.s.s.UIMicroserviceApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-10T18:32:24.112+02:00  INFO 26312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8035 (http)
+2024-03-10T18:32:24.124+02:00  INFO 26312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-10T18:32:24.125+02:00  INFO 26312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-03-10T18:32:24.331+02:00  INFO 26312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-10T18:32:24.332+02:00  INFO 26312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1744 ms
+2024-03-10T18:32:25.181+02:00  INFO 26312 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6885ed19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10817f46, org.springframework.security.web.context.SecurityContextHolderFilter@349c4d1c, org.springframework.security.web.header.HeaderWriterFilter@689faf79, org.springframework.web.filter.CorsFilter@2d4a3e13, org.springframework.security.web.csrf.CsrfFilter@26c8b296, org.springframework.security.web.authentication.logout.LogoutFilter@3312f4f4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7741ae1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@de579ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7971c2a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a22e4d7, org.springframework.security.web.access.ExceptionTranslationFilter@2fd1ad8a, org.springframework.security.web.access.intercept.AuthorizationFilter@49c1e294]
+2024-03-10T18:32:25.557+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2024-03-10T18:32:25.559+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2024-03-10T18:32:25.584+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2024-03-10T18:32:25.591+02:00  INFO 26312 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2024-03-10T18:32:25.596+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2024-03-10T18:32:25.602+02:00  INFO 26312 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /VAADIN/push
+2024-03-10T18:32:25.614+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2024-03-10T18:32:25.614+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2024-03-10T18:32:25.614+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2024-03-10T18:32:25.615+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2024-03-10T18:32:25.615+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2024-03-10T18:32:25.615+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+2024-03-10T18:32:25.615+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2024-03-10T18:32:25.616+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2024-03-10T18:32:25.616+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2024-03-10T18:32:25.616+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2024-03-10T18:32:25.617+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2024-03-10T18:32:25.617+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2024-03-10T18:32:25.617+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2024-03-10T18:32:25.617+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2024-03-10T18:32:25.621+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.621+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.622+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.622+02:00  INFO 26312 --- [main] o.a.interceptor.HeartbeatInterceptor     : HeartbeatInterceptor configured with padding value 'X', client frequency 0 seconds and server frequency 60 seconds
+2024-03-10T18:32:25.622+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.622+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.622+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.622+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.623+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.623+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2024-03-10T18:32:25.623+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2024-03-10T18:32:25.623+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2024-03-10T18:32:25.623+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2024-03-10T18:32:25.623+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2024-03-10T18:32:25.624+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2024-03-10T18:32:25.627+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2024-03-10T18:32:25.627+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2024-03-10T18:32:25.627+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using DefaultAtmosphereObjectFactory for dependency injection and object creation
+2024-03-10T18:32:25.627+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/10.1.16 using jakarta.servlet/3.0 and jsr356/WebSocket API
+2024-03-10T18:32:25.628+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 3.0.3.slf4jvaadin2 started.
+2024-03-10T18:32:25.632+02:00  INFO 26312 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2024-03-10T18:32:25.677+02:00  INFO 26312 --- [main] c.v.f.s.DefaultDeploymentConfiguration   : Vaadin is running in production mode.
+2024-03-10T18:32:25.725+02:00  INFO 26312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8035 (http) with context path ''
+2024-03-10T18:32:25.731+02:00  INFO 26312 --- [main] c.s.s.UIMicroserviceApplication          : Started UIMicroserviceApplication in 3.888 seconds (process running for 5.189)
+2024-03-10T18:32:49.427+02:00  INFO 26312 --- [http-nio-8035-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10T18:32:49.427+02:00  INFO 26312 --- [http-nio-8035-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-10T18:32:49.428+02:00  INFO 26312 --- [http-nio-8035-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-10T18:32:49.445+02:00  WARN 26312 --- [http-nio-8035-exec-1] o.s.w.s.h.HandlerMappingIntrospector     : Cache miss for REQUEST dispatch to '/' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2024-03-10T18:32:49.610+02:00  INFO 26312 --- [http-nio-8035-exec-2] c.vaadin.flow.spring.SpringInstantiator  : The number of beans implementing 'I18NProvider' is 0. Cannot use Spring beans for I18N, falling back to the default behavior
+2024-03-10T18:32:50.856+02:00  INFO 26312 --- [http-nio-8035-exec-9] com.starship.starshipUI.view.LoginView   : login view created
