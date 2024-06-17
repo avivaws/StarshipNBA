@@ -53,7 +53,7 @@ The architecture consists of:
     ```
 
 3. **Access the services**:
-    -UI: `http://localhost8035`
+    - UI: `http://localhost8035`
     - API Gateway: `http://localhost:8080`
     - NBA Microservice: `http://localhost:8081`
     - Population Microservice: `http://localhost:8082`
