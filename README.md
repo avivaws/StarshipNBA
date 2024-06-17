@@ -53,6 +53,7 @@ The architecture consists of:
     ```
 
 3. **Access the services**:
+    -UI: `http://localhost8035`
     - API Gateway: `http://localhost:8080`
     - NBA Microservice: `http://localhost:8081`
     - Population Microservice: `http://localhost:8082`
@@ -62,6 +63,11 @@ The architecture consists of:
     - Zipkin: `http://localhost:9411`
 
 ## Usage
+
+### Client Webserver
+<img src="https://github.com/avivaws/StarshipNBA/assets/88618518/97663bfd-3265-4034-b993-b52e3afa8bdb" alt="UI" width="500">
+
+
 ### API Endpoints
 - **News Headlines**: 
     ```bash
@@ -92,7 +98,7 @@ Grafana is used to visualize the metrics collected by Prometheus. Pre-configured
 ### Zipkin
 Zipkin provides distributed tracing capabilities. It helps in understanding the flow of requests across various microservices and identifying bottlenecks.
 
-<img src="https://github.com/avivaws/StarshipNBA/assets/88618518/33908c4d-3823-40ad-91a1-9db0cc225235" alt="Grafana" width="500">
+<img src="https://github.com/avivaws/StarshipNBA/assets/88618518/33908c4d-3823-40ad-91a1-9db0cc225235" alt="Zipkin" width="500">
 
 ## Conclusion
 This microservices architecture project demonstrates the integration of various public APIs, dynamic service discovery, and monitoring using Prometheus, Grafana, and Zipkin. It is containerized with Docker and ready for deployment on AWS.
